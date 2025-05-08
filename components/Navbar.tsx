@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link";
-// import LogoutButton from "./logoutBtn";
+import LogoutButton from "./logoutBtn";
 // import { useTheme } from "next-themes";
 // import { Button } from "@/components/ui/button";
 // import { Sun, Moon } from "lucide-react";
@@ -34,7 +34,7 @@ export default function Navbar() {
         </Link>
           <Link href="/editor" className="hover:underline hover:text-gray-500">Editor</Link>
           <Link href="/profile" className="hover:underline hover:text-gray-500">Profile</Link>
-          {/* <LogoutButton/> */}
+          <LogoutButton/>
 
           {/* Theme toggle button */}
           {/* <Button onClick={handleThemeToggle} variant="outline">
